@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+data:
+  # Add any frontend environment variables here if needed
+  REACT_APP_API_URL: "http://auth-sys.local/api"
