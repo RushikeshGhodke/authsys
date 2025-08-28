@@ -4,4 +4,4 @@ metadata:
   name: frontend-config
 data:
   # Add any frontend environment variables here if needed
-  REACT_APP_API_URL: "http://auth-sys.local/api"
+  REACT_APP_API_URL: "http://localhost:3000/api"

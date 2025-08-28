@@ -17,7 +17,6 @@ spec:
       containers:
       - name: frontend
         image: rushikeshghodke/auth-sys-frontend:latest
-        imagePullPolicy: Never  # Use local images in Minikube
         ports:
         - containerPort: 80
         env:

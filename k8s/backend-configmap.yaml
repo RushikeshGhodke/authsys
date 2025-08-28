@@ -5,9 +5,9 @@ metadata:
 data:
   NODE_ENV: "production"
   PORT: "3000"
-  CORS_ORIGIN: "http://auth-sys.local"
+  CORS_ORIGIN: "http://localhost"
   DB_HOST: "mysql-service"
-  DB_USER: "auth_user"
+  DB_USER: "root"
   DB_NAME: "auth_sys"
   DB_PORT: "3306"
   JWT_EXPIRY: "7d"

@@ -17,7 +17,6 @@ spec:
       containers:
       - name: backend
         image: rushikeshghodke/auth-sys-backend:latest
-        imagePullPolicy: Never  # Use local images in Minikube
         ports:
         - containerPort: 3000
         env:
@@ -66,6 +65,21 @@ spec:
             secretKeyRef:
               name: backend-secret
               key: jwt-secret
+        - name: CLOUDINARY_CLOUD_NAME
+          valueFrom:
+            secretKeyRef:
+              name: backend-secret
+              key: cloudinary-cloud-name
+        - name: CLOUDINARY_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: backend-secret
+              key: cloudinary-cloud-key
+        - name: CLOUDINARY_API_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: backend-secret
+              key: cloudinary-cloud-secret
         - name: JWT_EXPIRY
           valueFrom:
             configMapKeyRef:
