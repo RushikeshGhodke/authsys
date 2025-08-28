@@ -72,7 +72,7 @@ export const authAPI = {
     // Change password
     changePassword: async (passwordData) => {
         return makeRequest('/auth/change-password', {
-            method: 'PATCH',
+            method: 'POST',
             body: JSON.stringify(passwordData),
         });
     },
