@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: rushikeshghodke/auth-sys-backend:latest
+        image: rushikeshghodkedottech/auth-sys-backend:2
         ports:
         - containerPort: 3000
         env:

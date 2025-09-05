@@ -6,6 +6,8 @@ dotenv.config();
 let connection;
 
 // Create the connection to database
+console.log(process.env.DB_HOST);
+
 try {
     connection = await mysql.createConnection({
         host: process.env.DB_HOST || 'localhost',

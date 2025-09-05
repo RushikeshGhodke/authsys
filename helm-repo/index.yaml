@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  authsys-backend-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-09-04T10:31:05.5236882+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 9f9c5c85024f0517bf7df53766d113487f49709378d36fd90d382cfa3133beb7
+    name: authsys-backend-chart
+    type: application
+    urls:
+    - http://helmrepobucketbyrushikesh.s3-website-eu-west-1.amazonaws.com/authsys-backend-chart-0.1.0.tgz
+    version: 0.1.0
+  authsys-db-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-09-04T10:31:05.5249014+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 392e0492d8ec5d50c2698b609031a18438f2de6aa2308acdf4e358d1d5352740
+    name: authsys-db-chart
+    type: application
+    urls:
+    - http://helmrepobucketbyrushikesh.s3-website-eu-west-1.amazonaws.com/authsys-db-chart-0.1.0.tgz
+    version: 0.1.0
+  authsys-frontend-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-09-04T10:31:05.5255233+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 93d713632d69d5a8bdea5d008db1b42709c9752e431fce27bb469f49ff95969b
+    name: authsys-frontend-chart
+    type: application
+    urls:
+    - http://helmrepobucketbyrushikesh.s3-website-eu-west-1.amazonaws.com/authsys-frontend-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-09-04T10:31:05.5226201+05:30"
